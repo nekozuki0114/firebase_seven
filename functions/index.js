@@ -5,13 +5,6 @@ admin.initializeApp();
 const axios = require('axios');
 let item;
 
-
-
-
-
-
-
-
 exports.addMessage = functions.https.onRequest(async (req, res) => {
     // Grab the text parameter.
 
