@@ -929,7 +929,7 @@
       <workItem from="1563159165987" duration="427000" />
       <workItem from="1563254587884" duration="13400000" />
       <workItem from="1563416736280" duration="2304000" />
-      <workItem from="1563501221816" duration="7354000" />
+      <workItem from="1563501221816" duration="7933000" />
     </task>
     <task id="LOCAL-00001" summary="ファーストコミット">
       <created>1563542802701</created>
@@ -942,7 +942,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32096000" />
+    <option name="totallyTimeSpent" value="32675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
