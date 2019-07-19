@@ -1,0 +1,1 @@
+AWSのLambdaとAPIgatewayでセブンイレブンの新商品情報をとってきてfirebaseのfuncthonsでDBに格納するやつのfirebase側
