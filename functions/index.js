@@ -15,10 +15,11 @@ let item;
 exports.addMessage = functions.https.onRequest(async (req, res) => {
     // Grab the text parameter.
 
-    await axios.get('https://uarwkd8on1.execute-api.us-east-1.amazonaws.com/default/seven').then((res) => {
+    item = await axios.get('https://uarwkd8on1.execute-api.us-east-1.amazonaws.com/default/seven').then((res) => {
         // 処理内容
         item = res['data'];
         console.log(item);
+        return item;
     });
 
     // Push the new message into the Realtime Database using the Firebase Admin SDK.
